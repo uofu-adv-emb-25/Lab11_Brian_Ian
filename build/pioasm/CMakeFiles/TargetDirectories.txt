@@ -1,0 +1,7 @@
+/home/ian/school/ECE5785/Lab11_Brian_Ian/build/pioasm/CMakeFiles/pioasm.dir
+/home/ian/school/ECE5785/Lab11_Brian_Ian/build/pioasm/CMakeFiles/edit_cache.dir
+/home/ian/school/ECE5785/Lab11_Brian_Ian/build/pioasm/CMakeFiles/rebuild_cache.dir
+/home/ian/school/ECE5785/Lab11_Brian_Ian/build/pioasm/CMakeFiles/list_install_components.dir
+/home/ian/school/ECE5785/Lab11_Brian_Ian/build/pioasm/CMakeFiles/install.dir
+/home/ian/school/ECE5785/Lab11_Brian_Ian/build/pioasm/CMakeFiles/install/local.dir
+/home/ian/school/ECE5785/Lab11_Brian_Ian/build/pioasm/CMakeFiles/install/strip.dir
