@@ -16,11 +16,11 @@ else()
 endif()
 
 if(DEFINED ENV{FREERTOS_KERNEL_PATH})
-    set(FREERTOS_KERNEL_PATH $ENV{FREERTOS_KERNEL_PATH})
+    set(FREERTOS_KERNEL_PATH $ENV{FREERTOS_PATH})
 else()
-    set(FREERTOS_KERNEL_PATH /home/ian/lib/FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel)
+    set(FREERTOS_KERNEL_PATH $ENV{FREERTOS_PATH})
 endif()
-message("FreeRTOS path: ${FREERTOS_KERNEL_PATH}")
+message("FreeRTOS path: ${FREERTOS_PATH}")
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # ====================================================================================
