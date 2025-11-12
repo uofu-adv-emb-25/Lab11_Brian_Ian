@@ -18,7 +18,7 @@ endif()
 if(DEFINED ENV{FREERTOS_KERNEL_PATH})
     set(FREERTOS_KERNEL_PATH $ENV{FREERTOS_KERNEL_PATH})
 else()
-    set(FREERTOS_KERNEL_PATH lib/freertos)
+    set(FREERTOS_KERNEL_PATH /home/ian/lib/FreeRTOS-LTS/FreeRTOS/FreeRTOS-Kernel)
 endif()
 message("FreeRTOS path: ${FREERTOS_KERNEL_PATH}")
 
