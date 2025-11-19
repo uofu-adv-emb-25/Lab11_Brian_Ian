@@ -4,9 +4,9 @@
             "name": "Linux",
             "includePath": [
                 "${workspaceFolder}/**",
-                "${ENV:PICO_SDK_PATH}/**",
-                "${ENV:FREERTOS_PATH}/**",
-                "/home/brian-stites/5785-libs/pico-sdk/lib/btstack/src"
+                "${env:PICO_SDK_PATH}/**",
+                "${env:FREERTOS_PATH}/**",
+                "${env:UNITY_PATH}/**"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",

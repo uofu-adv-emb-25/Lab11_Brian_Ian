@@ -1,4 +1,4 @@
-load_server:
+btserver:
 	cmake --build build
 	sudo picotool reboot -f -u
 	sleep 3
