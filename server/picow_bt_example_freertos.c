@@ -34,6 +34,18 @@ static void packet_handler(uint8_t packet_type, uint16_t channel, uint8_t *packe
             gap_local_bd_addr(local_addr);
             printf("BTstack up and running on %s.\n", bd_addr_to_str(local_addr));
             break;
+        case BTSTACK_EVENT_NR_CONNECTIONS_CHANGED:
+            /* 
+                (btstack_event_state_get_state(packet) != HCI_STATE_WORKING) 
+            {
+                printf( "State: %x\n", btstack_event_state_get_state(packet));
+                printf("Your HCI not working.");
+                return;
+            } 
+            */  
+            gap_local_bd_addr(local_addr);
+            printf("Number of connections has changed\n");
+            break;
         default:
             break;
     }
